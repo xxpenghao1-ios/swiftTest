@@ -16,6 +16,15 @@
 		637D6EAF1F662ED0006E90F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637D6EAD1F662ED0006E90F1 /* LaunchScreen.storyboard */; };
 		637D6EBA1F662ED0006E90F1 /* swiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637D6EB91F662ED0006E90F1 /* swiftTestTests.swift */; };
 		637D6EC51F662ED0006E90F1 /* swiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637D6EC41F662ED0006E90F1 /* swiftTestUITests.swift */; };
+		63AB90171F6669CC0070AEED /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB90071F6669CC0070AEED /* IndexViewController.swift */; };
+		63AB90181F6669CC0070AEED /* JPUSHService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB900C1F6669CC0070AEED /* JPUSHService.swift */; };
+		63AB90191F6669CC0070AEED /* BaseNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB900E1F6669CC0070AEED /* BaseNetWork.swift */; };
+		63AB901A1F6669CC0070AEED /* DownloadAssetsNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB900F1F6669CC0070AEED /* DownloadAssetsNetWork.swift */; };
+		63AB901B1F6669CC0070AEED /* GoodsClassificationNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB90101F6669CC0070AEED /* GoodsClassificationNetWork.swift */; };
+		63AB901C1F6669CC0070AEED /* IndexNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB90111F6669CC0070AEED /* IndexNetWork.swift */; };
+		63AB901D1F6669CC0070AEED /* MyNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB90121F6669CC0070AEED /* MyNetWork.swift */; };
+		63AB901E1F6669CC0070AEED /* ShoppingCartNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB90131F6669CC0070AEED /* ShoppingCartNetWork.swift */; };
+		63AB901F1F6669CC0070AEED /* PublicUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB90151F6669CC0070AEED /* PublicUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,16 @@
 		637D6EC01F662ED0006E90F1 /* swiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		637D6EC41F662ED0006E90F1 /* swiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftTestUITests.swift; sourceTree = "<group>"; };
 		637D6EC61F662ED0006E90F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AB90021F6669970070AEED /* swiftTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		63AB90071F6669CC0070AEED /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		63AB900C1F6669CC0070AEED /* JPUSHService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPUSHService.swift; sourceTree = "<group>"; };
+		63AB900E1F6669CC0070AEED /* BaseNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetWork.swift; sourceTree = "<group>"; };
+		63AB900F1F6669CC0070AEED /* DownloadAssetsNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadAssetsNetWork.swift; sourceTree = "<group>"; };
+		63AB90101F6669CC0070AEED /* GoodsClassificationNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsClassificationNetWork.swift; sourceTree = "<group>"; };
+		63AB90111F6669CC0070AEED /* IndexNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexNetWork.swift; sourceTree = "<group>"; };
+		63AB90121F6669CC0070AEED /* MyNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNetWork.swift; sourceTree = "<group>"; };
+		63AB90131F6669CC0070AEED /* ShoppingCartNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCartNetWork.swift; sourceTree = "<group>"; };
+		63AB90151F6669CC0070AEED /* PublicUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicUtility.swift; sourceTree = "<group>"; };
 		690FF907B1E7B50F3982DE31 /* Pods_swiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C3514E362C0EDDA62D5D78 /* Pods-swiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftTest/Pods-swiftTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +125,11 @@
 		637D6EA01F662ED0006E90F1 /* swiftTest */ = {
 			isa = PBXGroup;
 			children = (
+				63AB90051F6669CC0070AEED /* Controller */,
+				63AB90081F6669CC0070AEED /* Entity */,
+				63AB90091F6669CC0070AEED /* ThirdPartyFramworks */,
+				63AB900A1F6669CC0070AEED /* Utility */,
+				63AB90161F6669CC0070AEED /* View */,
 				637D6EA11F662ED0006E90F1 /* AppDelegate.swift */,
 				637D6EA31F662ED0006E90F1 /* ViewController.swift */,
 				637D6EA51F662ED0006E90F1 /* Main.storyboard */,
@@ -113,6 +137,7 @@
 				637D6EAD1F662ED0006E90F1 /* LaunchScreen.storyboard */,
 				637D6EB01F662ED0006E90F1 /* Info.plist */,
 				637D6EA81F662ED0006E90F1 /* swiftTest.xcdatamodeld */,
+				63AB90021F6669970070AEED /* swiftTest-Bridging-Header.h */,
 			);
 			path = swiftTest;
 			sourceTree = "<group>";
@@ -133,6 +158,82 @@
 				637D6EC61F662ED0006E90F1 /* Info.plist */,
 			);
 			path = swiftTestUITests;
+			sourceTree = "<group>";
+		};
+		63AB90051F6669CC0070AEED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63AB90061F6669CC0070AEED /* Index */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63AB90061F6669CC0070AEED /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				63AB90071F6669CC0070AEED /* IndexViewController.swift */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		63AB90081F6669CC0070AEED /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		63AB90091F6669CC0070AEED /* ThirdPartyFramworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartyFramworks;
+			sourceTree = "<group>";
+		};
+		63AB900A1F6669CC0070AEED /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				63AB900B1F6669CC0070AEED /* JPush */,
+				63AB900D1F6669CC0070AEED /* NetWork */,
+				63AB90141F6669CC0070AEED /* PublicUtility */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		63AB900B1F6669CC0070AEED /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				63AB900C1F6669CC0070AEED /* JPUSHService.swift */,
+			);
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		63AB900D1F6669CC0070AEED /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				63AB900E1F6669CC0070AEED /* BaseNetWork.swift */,
+				63AB900F1F6669CC0070AEED /* DownloadAssetsNetWork.swift */,
+				63AB90101F6669CC0070AEED /* GoodsClassificationNetWork.swift */,
+				63AB90111F6669CC0070AEED /* IndexNetWork.swift */,
+				63AB90121F6669CC0070AEED /* MyNetWork.swift */,
+				63AB90131F6669CC0070AEED /* ShoppingCartNetWork.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		63AB90141F6669CC0070AEED /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				63AB90151F6669CC0070AEED /* PublicUtility.swift */,
+			);
+			path = PublicUtility;
+			sourceTree = "<group>";
+		};
+		63AB90161F6669CC0070AEED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AA307272AF7353DC08533998 /* Frameworks */ = {
@@ -224,6 +325,7 @@
 					637D6E9D1F662ED0006E90F1 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 5A79UN6C3M;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					637D6EB41F662ED0006E90F1 = {
@@ -341,8 +443,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				637D6EA41F662ED0006E90F1 /* ViewController.swift in Sources */,
+				63AB901F1F6669CC0070AEED /* PublicUtility.swift in Sources */,
+				63AB901A1F6669CC0070AEED /* DownloadAssetsNetWork.swift in Sources */,
+				63AB901B1F6669CC0070AEED /* GoodsClassificationNetWork.swift in Sources */,
+				63AB901C1F6669CC0070AEED /* IndexNetWork.swift in Sources */,
 				637D6EAA1F662ED0006E90F1 /* swiftTest.xcdatamodeld in Sources */,
+				63AB90181F6669CC0070AEED /* JPUSHService.swift in Sources */,
+				63AB90191F6669CC0070AEED /* BaseNetWork.swift in Sources */,
 				637D6EA21F662ED0006E90F1 /* AppDelegate.swift in Sources */,
+				63AB901E1F6669CC0070AEED /* ShoppingCartNetWork.swift in Sources */,
+				63AB901D1F6669CC0070AEED /* MyNetWork.swift in Sources */,
+				63AB90171F6669CC0070AEED /* IndexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,11 +606,14 @@
 			baseConfigurationReference = 5FE75EC38507F9181B0CB5F6 /* Pods-swiftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5A79UN6C3M;
 				INFOPLIST_FILE = swiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = penghao.swiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftTest/swiftTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -509,11 +623,13 @@
 			baseConfigurationReference = 94C3514E362C0EDDA62D5D78 /* Pods-swiftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5A79UN6C3M;
 				INFOPLIST_FILE = swiftTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = penghao.swiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftTest/swiftTest-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -595,6 +711,7 @@
 				637D6ECB1F662ED0006E90F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		637D6ECC1F662ED0006E90F1 /* Build configuration list for PBXNativeTarget "swiftTestTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +720,7 @@
 				637D6ECE1F662ED0006E90F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		637D6ECF1F662ED0006E90F1 /* Build configuration list for PBXNativeTarget "swiftTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +729,7 @@
 				637D6ED11F662ED0006E90F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

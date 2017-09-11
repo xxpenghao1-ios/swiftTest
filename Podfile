@@ -17,5 +17,6 @@ target ‘swiftTest’ do
     pod 'EAIntroView'#引导页
 	pod 'Moya' #对Alamofire的封装
     pod 'JPush' #极光推送
+    pod 'SwiftyJSON' #JSON解析
 end
 

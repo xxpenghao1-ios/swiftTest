@@ -27,6 +27,7 @@ PODS:
   - Siren (1.2.2)
   - SnapKit (3.2.0)
   - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
   - XCGLogger (4.0.0):
     - XCGLogger/Core (= 4.0.0)
   - XCGLogger/Core (4.0.0)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - Siren
   - SnapKit
   - SVProgressHUD
+  - SwiftyJSON
   - XCGLogger
 
 SPEC CHECKSUMS:
@@ -63,8 +65,9 @@ SPEC CHECKSUMS:
   Siren: 74651375e6238c7489d4b97615381d79234c9186
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
 
-PODFILE CHECKSUM: 7fc1591b2a046e897b8148f1406ba08584575cc4
+PODFILE CHECKSUM: 33afa5a1c5a84076aebc839023a97eaf8457a69b
 
 COCOAPODS: 1.2.1.beta.1
