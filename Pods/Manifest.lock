@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (4.4.0)
+  - EAIntroView (2.10.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - IQKeyboardManagerSwift (4.0.8)
+  - JCore (1.1.1)
+  - JPush (3.0.2):
+    - JCore (~> 1.1.1)
+  - Moya (8.0.2):
+    - Moya/Core (= 8.0.2)
+  - Moya/Core (8.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - ObjectMapper (2.2.5)
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
+  - Result (3.2.1)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Siren (1.2.2)
+  - SnapKit (3.2.0)
+  - SVProgressHUD (2.1.2)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - EAIntroView
+  - IQKeyboardManagerSwift
+  - JPush
+  - Moya
+  - ObjectMapper
+  - RealReachability
+  - Result
+  - SDCycleScrollView
+  - SDWebImage
+  - Siren
+  - SnapKit
+  - SVProgressHUD
+  - XCGLogger
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  EAIntroView: 3494b7bbd1212e3a4f7e8d16194a1b00e7b9abb2
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  JCore: 2210a789c8efb7dc2a46b1c24d2209b995b18ad2
+  JPush: 01a693fafe51b93eafc2e368bbc7a7cc07e12ce4
+  Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
+  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Siren: 74651375e6238c7489d4b97615381d79234c9186
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+
+PODFILE CHECKSUM: 7fc1591b2a046e897b8148f1406ba08584575cc4
+
+COCOAPODS: 1.2.1.beta.1
